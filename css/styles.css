@@ -1,0 +1,220 @@
+/* En este archivo escriban su CSS */
+
+/* Fonts */
+/* Importar aquí la font */
+
+
+
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
+*  cuyos valores asigna por defecto el navegador.
+*/
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    background-color: #fbfbfb;
+    width: 100%;
+    border-bottom: 1px solid  #282828;
+    margin-bottom: 10px;
+    position: fixed;
+}
+.header-nav nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.article-nav{
+    width: 50%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.article-nav ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+}
+main {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding-top: 110px;
+    background-color:#fbfbfb;
+    display: flex;
+    flex-direction: column;
+}
+.img-div-logo{
+    display: flex;
+    width: 180px;
+    height: 100px;/* 
+    background-color: #af599e; */
+}
+.img-logo{
+    width: 100%;
+}
+.section-img-cv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.div-img-yo{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.img-yo{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+}
+.div-auxiliar{
+    width: 100%;
+    display: flex;
+    justify-content: center;   
+}
+.article-yo{
+    text-align: center;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.article-yo h1{
+    margin: 20px 0px;
+    font-size: 35px;
+    font-family: 'lato', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.article-yo p{
+    margin-bottom: 15px;    
+}
+.div-button{
+    display: flex;
+    justify-content: center;
+}
+.button-cv{
+    width: 150px;
+    height: 40px;
+    color:#fbfbfb;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    background-color:#af599e;
+}
+.button-cv h3{
+    font-weight: 100;
+}
+.section-hablemos{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-hablemos article{
+    width: 90%;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 4%;
+    background-color: rgba(175, 89, 158, 0.3);
+}
+.section-hablemos article h2{
+    margin: 10px;
+    font-family: 'lato', 'Helvetica Neue',  Arial;
+}
+.section-hablemos article p{
+    text-align: center;
+    padding: 0px 30px;
+    margin: 10px 0px;  
+}
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+footer section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer section .article-redes{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    
+}
+footer section .article-redes nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+}
+
+footer section .article-redes nav a img {
+    width: 50px;   
+}
+
+footer section .article-CodigoLatam {
+    background-color: #af599e;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+@media (min-width: 481px){
+    }
+
+@media (min-width: 769px){
+    }
+@media (min-width: 1280px) and (max-width: 2000px){
+    .section-img-cv{
+        flex-direction: row;
+    }
+    .div-button{
+        position: relative;
+        top: 10;
+        bottom: 100;
+    }
+    .button-cv{
+        position: absolute;
+        top: 325px;
+        right: 220px;
+    }
+    main{
+        display: flex;
+        align-items: center;
+    }
+    .section-hablemos{
+        width: 50%;
+    }   
+    }
