@@ -1,15 +1,4 @@
-/* En este archivo escriban su CSS */
 
-/* Fonts */
-/* Importar aquí la font */
-
-
-
-/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
-*  cuyos valores asigna por defecto el navegador.
-*/
-
-/* Reset */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -190,6 +179,19 @@ footer section .article-CodigoLatam {
     text-align: center;
     color: #fbfbfb;
 }
+
+/* DOM */
+
+li.menu-item:hover,
+li.menu-item a.active,
+a.btn:hover{
+    background: rgba(175, 89, 158, 0.5);
+    transition: background-color 0.3s;
+    border: 25;
+    
+}
+
+
 
 @media (min-width: 481px){
     }
