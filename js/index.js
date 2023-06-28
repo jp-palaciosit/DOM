@@ -19,5 +19,4 @@ menuItems.forEach(function(item){
         currentItem.classList.remove("active")
         e.target.classList.add("active")
     })
-
 })

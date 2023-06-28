@@ -187,11 +187,7 @@ li.menu-item a.active,
 a.btn:hover{
     background: rgba(175, 89, 158, 0.5);
     transition: background-color 0.3s;
-    border: 25;
-    
 }
-
-
 
 @media (min-width: 481px){
     }
