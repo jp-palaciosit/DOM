@@ -197,6 +197,12 @@ footer section .article-CodigoLatam {
 @media (min-width: 769px){
     }
 @media (min-width: 1280px) and (max-width: 2000px){
+    h1{
+        font-size: 48px;
+    }
+    h2{
+        font-size: 32px;
+    }
     .section-img-cv{
         flex-direction: row;
     }
